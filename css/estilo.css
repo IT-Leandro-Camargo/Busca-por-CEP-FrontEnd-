@@ -1,0 +1,98 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+/* Definição de fonte */
+/* h1, h2, p, a {font-family: 'Roboto Slab', serif; color: #ffee00;} */
+h3 {font-family: Geneva, sans-serif; color: rgb(59, 186, 245);}
+h4 {font-family: 'Roboto Slab', serif; color: #ffee00; font-size: 15px;}
+
+
+.container {
+    display: flex;                
+    justify-content: center;
+    margin-top: 50px; 
+}
+
+.row {  
+    display: flex; 
+    flex-direction: column;            
+    align-items: center;       
+    border: 1px solid #C2CED9;  
+    width: 70%; 
+}
+
+.menu_topo {
+    font-family: Geneva, sans-serif; 
+    color: #000000;
+    background-color: #C2CED9;
+
+}
+
+.menu_topo h1 {
+    font-size: 25px;
+    /* background-color: #C2CED9; */
+    color: #2B3A47;
+    padding: 20px 132px;
+    padding-bottom: 7px;
+}
+
+.col-sm-12 {
+    display: flex;   
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.col-sm-4 {
+    font-size: 15px;
+    color: #677582;
+    font-weight: 700;
+    margin-top: 33px;    
+}
+
+#btn-pesquisar {
+    margin-top: 20;
+    margin-bottom: 16px;
+    padding: 6px 50px;    
+}
+
+.linha_divisoria {
+    margin-bottom: 300px;
+    color: #C2CED9;
+}
+
+.linha_divisoria2 {
+    margin-bottom: 0;
+    color: #C2CED9;
+}
+
+.formulario {
+    display: flex; 
+    flex-direction: column;            
+    align-items: center;   
+    border: 2px solid #9FACBA;  
+    background-color: #DFE6ED;
+    box-sizing: auto; 
+    margin: 0 1% 1% 1%;   
+}
+
+.row2 {  
+    display: flex; 
+    flex-direction: row;            
+    align-items: center;   
+}
+
+.row3 {  
+    display: flex; 
+    flex-direction: row;            
+    align-items: center; 
+    margin-top: 30px;  
+}
+
+.col-sm-12 {
+    box-sizing: border-box;
+}
+
+
+
+
+
